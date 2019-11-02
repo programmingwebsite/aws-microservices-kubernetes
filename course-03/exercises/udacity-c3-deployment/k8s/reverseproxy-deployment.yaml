@@ -12,7 +12,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: scheele/reverseproxy
+      - image: programmingwebsite/reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -24,6 +24,6 @@ spec:
             cpu: "500m"       
         ports:
         - containerPort: 8080
-      restartPolicy: Always
+      restartPolicy: Always                 
 
 

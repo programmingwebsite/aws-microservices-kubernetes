@@ -5,14 +5,14 @@ metadata:
     service: backend-feed
   name: backend-feed
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
         service: backend-feed
     spec:
       containers:
-      - image: scheele/udacity-restapi-feed
+      - image: programmingwebsite/udacity-restapi-feed
         name: backend-feed
         imagePullPolicy: Always  
         resources:
@@ -28,11 +28,11 @@ spec:
             configMapKeyRef:
               name: env-config
               key: URL
-        - name: AWS_BUCKET
+        - name: AWS_MEDIA_BUCKET
           valueFrom:
             configMapKeyRef:
               name: env-config
-              key: AWS_BUCKET
+              key: AWS_MEDIA_BUCKET
         - name: AWS_PROFILE
           valueFrom:
             configMapKeyRef:

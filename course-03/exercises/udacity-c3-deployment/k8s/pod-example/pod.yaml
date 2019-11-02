@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-example
+  name: udacity-restapi-feed
 spec:
   containers:
-  - image: scheele/reverseproxy
-    name: reverseproxy
+  - image: programmingwebsite/udacity-restapi-feed
+    name: udacity-restapi-feed
     imagePullPolicy: Always          
     resources:
       requests:
