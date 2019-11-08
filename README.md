@@ -4,8 +4,8 @@
 
 * [OverView](#OverView)
 * [Setup Environment](#Setting-Environment)
-* [Installation](#Installation-Docker)
-* [Installation](#Installation-Kubernetes)
+* [Installation Docker](#Installation-Docker)
+* [Installation Kubernetes](#Installation-Kubernetes)
 * [Project Reference Sources Or Links](#references)
 
 ## OverView
