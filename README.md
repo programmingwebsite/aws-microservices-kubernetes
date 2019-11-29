@@ -1,4 +1,4 @@
-# Udagram - Photo Sharing App develop as Continuous Deployment with Travis CI and Kubernetes on AWS
+# Udagram - Photo Sharing App develop as Continuous Deployment with Travis CI and Kubernetes on AWS using Kubeone
 
 ## Table of Contents
 
