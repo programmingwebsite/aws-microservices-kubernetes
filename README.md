@@ -1,4 +1,4 @@
-# Udagram - Photo Sharing App develop as Continuous Deployment with Travis CI and Kubernetes on AWS using Kubeone
+# Udagram - Photo Sharing App develop as Continuous Deployment with Travis CI and Kubernetes on AWS using Terraform and Kubeone
 
 ## Table of Contents
 
@@ -43,14 +43,16 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 
 * The only options to install Udagram is by cloning from the git hub please follow the instructions below .
 
-    1. From the Ubuntu/Linux Terminal, type in the command:
+    1. Install the Docker Runtime Engine:
+        * From this link `https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker`
+    2. From the Ubuntu/Linux Terminal, type in the command:
         * git clone `https://github.com/programmingwebsite/aws-microservices-kubernetes.git`. 
-    2. After cloning, browse to the exercises folder. From the exercise folder,  you need to install the packages and dependencies for     `udacity-c3-frontend`, `udacity-c3-restapi-feed` and `udacity-c3-user`. Type in the following command for each folder.
+    3. After cloning, browse to the exercises folder. From the exercise folder,  you need to install the packages and dependencies for     `udacity-c3-frontend`, `udacity-c3-restapi-feed` and `udacity-c3-user`. Type in the following command for each folder.
         * npm ci
-    3. Build and Create the docker Images.
+    4. Build and Create the docker Images.
         * Browser to the folder `udacity-c3-deployment/docker`. Type the following command: 
         `docker-compose -f docker-compose-build.yaml build --parallel`. This will build all the images for the Udagram Project.
-    4. Push all the images to the Docker Hub Repository. You need to have a Docker Hub account.
+    5. Push all the images to the Docker Hub Repository. You need to have a Docker Hub account.
         * From the Docker Terminal. Type in `docker login`, you will be prompt in the username and password.
         * To push all the images to Docker Hub , type in `docker-compose -f docker-compose-build.yaml push`.
 
@@ -62,7 +64,7 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 
         1. export both your AWS_ACCESS_KEY_ID and export AWS_SECRET_ACCESS_KEY in your terminal. If you quit your bash session you’ll have to do this again. Execute echo $AWS_ACCESS_KEY_ID to make sure you’ve done this correctly.
 
-        2. download Terraform and kubeone per the resources above.
+        2. Download Terraform and kubeone per the resources above.
 
         3. Follow the instructions
 
