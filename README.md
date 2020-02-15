@@ -44,7 +44,7 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 * The only options to install Udagram is by cloning from the git hub please follow the instructions below .
 
     1. Install the Docker Runtime Engine:
-        * From this link `https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker`
+        * From this link `https://docs.docker.com/install/linux/docker-ce/ubuntu/`
     2. From the Ubuntu/Linux Terminal, type in the command:
         * git clone `https://github.com/programmingwebsite/aws-microservices-kubernetes.git`. 
     3. After cloning, browse to the exercises folder. From the exercise folder,  you need to install the packages and dependencies for     `udacity-c3-frontend`, `udacity-c3-restapi-feed` and `udacity-c3-user`. Type in the following command for each folder.
