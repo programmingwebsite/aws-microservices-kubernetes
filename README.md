@@ -45,6 +45,8 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 
     1. Install the Docker Runtime Engine:
         * From this link `https://docs.docker.com/install/linux/docker-ce/ubuntu/`
+    2. Install Docker Compose:
+        * From this link `https://phoenixnap.com/kb/install-docker-compose-ubuntu`
     2. From the Ubuntu/Linux Terminal, type in the command:
         * git clone `https://github.com/programmingwebsite/aws-microservices-kubernetes.git`. 
     3. After cloning, browse to the exercises folder. From the exercise folder,  you need to install the packages and dependencies for     `udacity-c3-frontend`, `udacity-c3-restapi-feed` and `udacity-c3-user`. Type in the following command for each folder.
