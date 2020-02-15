@@ -17,7 +17,7 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 ## Setting-Environment
 
  * Virtaul Machine for Docker
-    1. To install please follow the this link: https://docs.docker.com/toolbox/toolbox_install_windows/. After Installed you will be able to use most of the docker functions. `TAKE NOTE: PLEASE DO NOT UPGRADE THE VIRTAULBOX`. Upgrading the virtualbox will causes un-expected issues, which causes the Udagram app to not fuction properly.
+    1. To install please follow the this link: https://docs.docker.com/toolbox/toolbox_install_windows/. After Installed you will be able to use most of the docker functions.
 
  * Virtual Machine for Kubernetes
     1. Download the Ubuntu from the Ubuntu website: https://ubuntu.com/download, we will download the Ubuntu 18.0.4 desktop version.
