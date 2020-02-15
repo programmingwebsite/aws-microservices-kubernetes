@@ -24,6 +24,7 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
     2. Download the Terraform (For generating the AWS infrasturture and kubernetes cluster) link: https://www.terraform.io/downloads.html , please choose Linux and download the latest version, follow the steps for installation.
     3. Download the KubeOne (a management tool for managing High Availability Cluster) from this Site: https://github.com/kubermatic/kubeone.  
     4. Dowload the Kubectl (for running commands against the Kubernetes Cluster). Follow this link: https://kubernetes.io/docs/tasks/tools/install-kubectl/ .
+    5. Install AWS Cli. Follow this link: https://linuxhint.com/install_aws_cli_ubuntu/ .    
 
  * Setting the Envormnet Variables:
     For Windows, Open the `File Explorer` and right click the `The PC`, Select the properties. From pop-up window choose `Advance System Settings`, then choose `Environment Variables`.
