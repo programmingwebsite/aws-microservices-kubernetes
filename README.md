@@ -130,3 +130,4 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
     * [Learn Kubernetes Basic](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
     * [Install and setup Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
     * [Get a Shell to a Running Container](https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/)    
+    * [kubectl untainted Node](https://forum.linuxfoundation.org/discussion/846483/lab2-1-kubectl-untainted-not-working)    
