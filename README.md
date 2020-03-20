@@ -61,7 +61,7 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
 
 ## Installation-Kubernetes 
 
-* The whole setup kubernetes describe below is referenced from my classmate `Dan B`. The link to the below steps can be found in `https://hub.udacity.com/rooms/community:nd9990:en-us-general?contextType=room` .
+* The whole setup kubernetes describe below is referenced from my classmate 'Dan B'.
 
     * From the Docker machine copy the whole folder `k8s`. (inside the `udacity-c3-deployment` folder) to the kubernetes virtual machine.
 
