@@ -84,8 +84,8 @@ For this project we will uses Oracle Vitualbox Virtual Machine for simulating th
             * Deploying Everything: Things to solve ahead of time:
 
                 - aws-secret.yaml
-                    * Find your credentials in ~/.aws/credentials. Find the aws_secret_access_key associated with this project.
-                    You need to save your key in base64 —> echo -n ${your aws credential files} | base64 —> this output is what you save under “credentials” in your aws-secret.yaml file.
+                    * Find your credentials in ~/.aws/credentials.
+                    You need to save your key in base64 —> type in 'base64 credentials'  —> this output is what you save under “credentials” in your aws-secret.yaml file.
                 - env-secret.yaml
                     * Repeat the process above for your POSTGRESS_USERNAME / POSTGRESS_PASSWORD
                     Both of those variable should be in your bash_profile. If they are then just execute echo -n $POSGRESS_USERNAME or POSTGRESS_PASSWORD| base64 for the correct values.
